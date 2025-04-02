@@ -34,7 +34,7 @@ const TimeAndLocation = () => {
         <Location />
         <div className="text-sm text-gray-500 font-semibold py-6">
           <span className="text-[#272162] inline">
-            Lycée Mohammed VI d'excellence
+            Lycée Mohammed VI d&apos;excellence
           </span>{" "}
           <br />
           Benguerir

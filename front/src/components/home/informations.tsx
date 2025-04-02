@@ -13,14 +13,20 @@ const Informations = () => {
       <div className="drop-shadow-sm md:flex">
         <div className="w-full md:text-xl py-4 space-y-4">
           <p className="md:w-3/4">
-            FMA est une compétition de recherche déstinée aux lycéens
-            d&apos;orientation scientifique. Elle consiste à explorer des
-            problèmes mathématiques pendant trois mois en équipe et présenter
-            les solutions sous forme d&apos;un débat.{" "}
+          FMA est un camp d&apos;été de physique destiné aux lycéens
+           à orientation scientifique. Pendant six jours, les participants découvrent
+            différents domaines de la physique à travers des cours animés par des étudiants
+             issus des plus grandes écoles internationales. Le programme inclut aussi des
+              discussions en petits groupes, des ateliers pratiques et des conférences données
+               par des chercheurs marocains de renom.{" "}
+
           </p>
           <p className="md:w-3/4">
-            Préparez-vous à vivre une expérience riche en divertissement,
-            workshops, conférences scientifiques et séances d&apos;orientation.
+          Au-delà des cours, FMA offre une immersion stimulante mêlant échanges,
+           exploration scientifique et accompagnement personnalisé pour mieux 
+           s&apos;orienter dans les études supérieures.{" "}
+
+
           </p>
           <Button disabled variant="default">
             Le programme complet sera publié prochainement
@@ -30,19 +36,19 @@ const Informations = () => {
         <div className="w-full md:leading-[5rem] font-medium text-4xl md:text-5xl">
           <p>
             <span className="bg-gradient-to-br from-sky-500 to-[#272162] inline-block text-transparent bg-clip-text">
-              200+
+              40+
             </span>{" "}
             Participants
           </p>
           <p>
             <span className="bg-gradient-to-br from-sky-500 to-[#272162] inline-block text-transparent bg-clip-text">
-              3
+             2
             </span>{" "}
             Workshops scientifiques
           </p>
           <p>
             <span className="bg-gradient-to-br from-sky-500 to-[#272162] inline-block text-transparent bg-clip-text">
-              4
+              6
             </span>{" "}
             jours entièrement pris en charge
           </p>
@@ -63,9 +69,9 @@ const Informations = () => {
 
         <div className="w-full">
           <MeteorCard
-            title="Dernière Édition"
+            title="Autres événements"
             description="Découvrir comment se sont déroulés les derniers événements de Math&Maroc."
-            ctaLabel="Découvrir d'autres événements"
+            ctaLabel="Découvrir d&apos;autres événements"
             className="h-full"
             onClick={() => window.open("http://mathmaroc.org/")}
           />
@@ -87,7 +93,7 @@ const Informations = () => {
             title="Test de sélection"
             description="Apprenez plus sur le processus de sélection"
             ctaLabel="Voir la sélection"
-            className="h-full"
+            className="h-full"  
             onClick={() => router.push("/selection")}
           />
         </div>

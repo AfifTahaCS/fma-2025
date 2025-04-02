@@ -30,7 +30,7 @@ export default function ProblemsPage() {
           <p className="mt-12">
             Découvrez comment s&apos;est déroulée la dernière édition de{" "}
             <span className="bg-gradient-to-br from-sky-500 to-[#272162] inline-block text-transparent bg-clip-text">
-              FMA
+              FMA 
             </span>{" "}
             au Lycée Mohamed 6 d&apos;Excellence de Benguerir, avec des
             participants venus de tous les coins du Maroc pour démontrer leurs
