@@ -8,6 +8,7 @@ import Footer from "@/components/layout/footer";
 import RecoilContextProvider from "./recoilContextProvider";
 import { dir } from "i18next";
 import { languages } from "../i18n/settings";
+import { Analytics } from "@vercel/analytics/react"
 
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
