@@ -42,6 +42,7 @@ export default async function RootLayout({
             <Footer />
           </Suspense>
         </RecoilContextProvider>
+        <Analytics />
       </body>
     </html>
   );
