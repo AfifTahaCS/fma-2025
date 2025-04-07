@@ -54,7 +54,7 @@ export default function PartnersPage() {
                 <span className="font-bold">Notre mission</span> est de promouvoir les mathématiques et les sciences au Maroc, et ainsi guider les jeunes vers l&apos;excellence.
               </>,
               <>
-                <HighlightText text="Math&Maroc" /> organise <span className="font-bold">FMA</span> depuis sa première édition en mai 2024.
+                <HighlightText text="Math&Maroc" /> organise la première édition de <span className="font-bold">FMA</span>.
               </>
             ]}
           />
@@ -70,7 +70,7 @@ export default function PartnersPage() {
             imageHeight={partners[0].imageHeight}
             content={[
               <>
-                <HighlightText text="Caisse de Dépôt et de Gestion (CDG)" colors="from-stone-500 to-[#628c11]" /> est une institution publique majeure, engagée dans le développement économique et social du Maroc à travers la gestion de fonds d&apos;épargne et l&apos;investissement à long terme.
+                <HighlightText text="Caisse de Dépôt et de Gestion (CDG)" colors="from-stone-500 to-[#628c11]" /> est une institution intergénérationnelle, engagée au service du progrès économique et social du Maroc à travers la gestion de fonds d&apos;épargne et l&apos;investissement à long terme.
               </>,
               <>
                 Il s&apos;agit du <span className="font-semibold">principal financeur</span> de cette édition de <HighlightText text="FMA" colors="from-sky-500 to-[#2596be]" />, et son soutien a été déterminant pour rendre cet événement possible.
@@ -79,8 +79,8 @@ export default function PartnersPage() {
           />
         </div>
 
-        {/* CO-ORGANISATEUR */}
-        <SectionTitle text="Co-organisateur" />
+        {/* Organisme d’accueil */}
+        <SectionTitle text="Organisme d&apos;accueil" />
         <div className="flex justify-around flex-wrap gap-6 p-8 rounded-lg animate-fade-up opacity-0" style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}>
           <Card
             key={partners[1].key}

@@ -55,11 +55,28 @@ export default function SelectionPage() {
           </p>
         </div>
 
-        {/* 🔭 Cosmic Button */}
+        {/* 🔭 Cosmic Button + 📝 Form Button */}
         <div
-          className="flex justify-center p-8 animate-fade-up opacity-0"
+          className="flex justify-center gap-x-6 p-8 animate-fade-up opacity-0"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
         >
+          {/* New Form Button */}
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfs_oMdgCFvflJxU8j3iA_Va0t5wNKUkqllMusHqfDiTFcD4g/viewform"
+            target="_blank"
+          >
+            <div className="relative h-36 w-36 rounded-full bg-gradient-to-br from-green-600 via-teal-500 to-blue-700 shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-transform duration-500 animate-float flex items-center justify-center backdrop-blur-sm ring-2 ring-white/20">
+              <span className="text-white font-semibold text-sm text-center z-10 pointer-events-none select-none drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)]">
+                📝<br />
+                Formulaire<br />
+                de sélection
+              </span>
+              <div className="absolute w-[170%] h-[170%] border border-green-300/20 rounded-full animate-spin-slow pointer-events-none" />
+              <div className="absolute h-3.5 w-3.5 bg-white rounded-full right-0 top-2 shadow-[0_0_10px_rgba(255,255,255,0.8)] animate-moon" />
+            </div>
+          </Link>
+
+          {/* Existing Theme Button */}
           <Link
             href="https://drive.google.com/drive/folders/1pGco8IvZCwchj4r12JQuhojZ9MRnbO90?usp=sharing"
             target="_blank"
@@ -70,11 +87,7 @@ export default function SelectionPage() {
                 Thèmes<br />
                 2025/2026
               </span>
-
-              {/* Pulsing orbit ring */}
               <div className="absolute w-[170%] h-[170%] border border-indigo-300/20 rounded-full animate-spin-slow pointer-events-none" />
-
-              {/* Glowing comet moon */}
               <div className="absolute h-3.5 w-3.5 bg-white rounded-full right-0 top-2 shadow-[0_0_10px_rgba(255,255,255,0.8)] animate-moon" />
             </div>
           </Link>
