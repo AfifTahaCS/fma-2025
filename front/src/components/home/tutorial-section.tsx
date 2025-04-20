@@ -16,7 +16,7 @@ const TutorialSection = () => {
           className="p-[3px] relative"
           onClick={() =>
             window.open(
-              'https://docs.google.com/forms/d/e/1FAIpQLSfs_oMdgCFvflJxU8j3iA_Va0t5wNKUkqllMusHqfDiTFcD4g/viewform?usp=send_form',
+              'https://docs.google.com/forms/d/e/1FAIpQLSe6XG4bfGFIXaSwVNJOmF5jmdNP_A6tV2MNQzpt6LbsfPJCcQ/viewform?usp=header',
               '_blank'
             )
           }

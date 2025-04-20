@@ -57,7 +57,7 @@ const CtaButton = () => {
 
         <button
           className="p-[3px] relative"
-          onClick={() => window.open("https://forms.gle/45fD4WycTpyYAdSN7")}
+          onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSe6XG4bfGFIXaSwVNJOmF5jmdNP_A6tV2MNQzpt6LbsfPJCcQ/viewform?usp=header")}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-[#272162] rounded-lg" />
           <div className="px-8 py-2 bg-white rounded-[6px] relative group transition duration-200 text-black hover:bg-transparent hover:text-white">
